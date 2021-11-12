@@ -44,7 +44,7 @@ public class Instatiation implements CommandLineRunner {
 
 		ComentDTO c1 = new ComentDTO("Boa viagen mano!", sdf.parse("21/03/2018"), new AuthorDTO(alex));
 		ComentDTO c2 = new ComentDTO("Aproveite", sdf.parse("22/03/2018"), new AuthorDTO(bob));
-		ComentDTO c3 = new ComentDTO("Temha um ótimo dia!", sdf.parse("23/03/2018"), new AuthorDTO(alex));
+		ComentDTO c3 = new ComentDTO("Tenha um ótimo dia!", sdf.parse("23/03/2018"), new AuthorDTO(alex));
 		
 		
 		post1.getComents().addAll(Arrays.asList(c1,c2));
